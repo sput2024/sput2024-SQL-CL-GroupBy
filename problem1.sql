@@ -14,4 +14,5 @@
 -- HINT: You should avoid using the wild card (*) in your statement. All projected columns must either be used in the `GROUP BY` clause or an aggregate function.
 
 -- Write your sql statement anywhere below this line
+SELECT count(song), artist FROM song GROUP BY artist;
 
